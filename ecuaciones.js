@@ -1,7 +1,7 @@
 
 let ecuaciones = [
     {
-        'ecuacion': 'sqrt(x+3)=20'
+        'ecuacion': 'x+3=20'
     },
     {
         'ecuacion': '4x+1=5'
