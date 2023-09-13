@@ -1,0 +1,67 @@
+/*ESTILOS GENERALES*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(images/rm373batch13-086.jpg) ;
+    background-attachment: fixed;
+    background-position: 0%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorPrincipal{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.contenedorInterno{
+    width: 80%;
+}
+
+/*Contenido*/
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ecuacion{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15%;
+    padding-bottom: 15%;
+}
+
+#boton{
+    width: 180px;
+    height: 50px;
+    margin: 1%;
+    padding: 1%;
+}
