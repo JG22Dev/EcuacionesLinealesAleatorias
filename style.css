@@ -8,6 +8,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -64,4 +65,12 @@ body{
     height: 50px;
     margin: 1%;
     padding: 1%;
+}
+
+.contenedorSecundario{
+    margin-top: 10%;
+    padding-top: 5%;
+}
+.contenedorSecundario p{
+    margin-right: 15px;
 }
